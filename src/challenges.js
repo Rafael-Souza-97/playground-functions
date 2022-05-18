@@ -1,6 +1,10 @@
-// Desafio 1 PR
-function compareTrue() {
-  // seu código aqui
+// Desafio 1
+function compareTrue(a, b) {
+
+if ( a === true && b === true ) {
+  return true
+}
+  return false
 }
 
 // Desafio 2
