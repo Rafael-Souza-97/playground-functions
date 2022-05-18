@@ -1,4 +1,4 @@
-// Desafio 1
+// Desafio 1 PR
 function compareTrue() {
   // seu código aqui
 }
