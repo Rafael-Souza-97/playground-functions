@@ -21,18 +21,30 @@ function splitSentence(string) {
 function concatName(string) {
   let primeiroItem = string[0];
   let ultimoItem = string[string.length - 1];
-  return (`${ultimoItem}, ${primeiroItem}`);
+  return `${ultimoItem}, ${primeiroItem}`;
 }
 
 // Desafio 5
 function footballPoints(wins, ties) {
-  const pontuacao = (wins * 3) + (ties * 1);
+  const pontuacao = wins * 3 + ties * 1;
   return pontuacao;
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(array) {
+  let contador = 0;
+  let maiorNum = array[0];
+  for (let index = 0; index <= array.length; index += 1) {
+    if (array[index] > maiorNum) {
+      maiorNum = array[index];
+    }
+  }
+  for (let index2 = 0; index2 <= array.length; index2 += 1) {
+    if (array[index2] === maiorNum) {
+      contador += 1;
+    }
+  }
+  return contador;
 }
 
 // Desafio 7
