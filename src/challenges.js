@@ -6,15 +6,15 @@ function compareTrue(a, b) {
   return false;
 }
 
-// Desafio 2
+// Desafio 2var re = /\s*;\s*/;
 function calcArea(base, altura) {
   const area = (base * altura) / 2;
   return area;
-} console.log(calcArea(51, 1));
+}
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(string) {
+  return string.split(' ');
 }
 
 // Desafio 4
