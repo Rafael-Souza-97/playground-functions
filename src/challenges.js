@@ -79,16 +79,58 @@ function fizzBuzz(array) {
 }
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(string) {
+  let cript = '';
+  for (let index = 0; index < string.length; index += 1) {
+    if (
+      string[index] === 'a'
+      || string[index] === 'e'
+      || string[index] === 'i'
+      || string[index] === 'i'
+      || string[index] === 'u'
+    ) {
+      cript = string
+        .replace(/a/gi, 1)
+        .replace(/e/gi, 2)
+        .replace(/i/gi, 3)
+        .replace(/o/gi, 4)
+        .replace(/u/gi, 5)
+    }
+  }
+  return cript;
 }
-function decode() {
-  // seu código aqui
+
+function decode(string1) {
+  let criptD = '';
+  if (
+    string1.includes(1)
+    || string1.includes(2)
+    || string1.includes(3)
+    || string1.includes(4)
+    || string1.includes(5)
+  ) {
+    criptD = string1
+      .replace(/1/g, 'a')
+      .replace(/2/g, 'e')
+      .replace(/3/g, 'i')
+      .replace(/4/g, 'o')
+      .replace(/5/g, 'u');
+  }
+  return criptD;
 }
 
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(array, string) {
+// let objeto = {
+//   tech: 'NomeTech',
+//   name: 'nome da pessoa',
+// };
+
+// if ((array = NaN)) {
+//   return 'Vazio!';
+//   }
+
+// return objeto;
 }
 
 module.exports = {
