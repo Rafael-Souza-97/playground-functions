@@ -121,14 +121,14 @@ function decode(string1) {
 
 // Desafio 10
 function techList(array, string) {
-// let objeto = {
-//   tech: 'NomeTech',
-//   name: 'nome da pessoa',
-// };
+ let objeto = {
+   tech: '',
+   name: '',
+ };
 
-// if ((array = NaN)) {
-//   return 'Vazio!';
-//   }
+ if ((array = NaN)) {
+   return 'Vazio!';
+  }
 
 // return objeto;
 }
