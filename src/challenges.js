@@ -122,12 +122,12 @@ function decode(string1) {
 // Desafio 10
 function techList(array, string) {
   array = array.sort();
-  if (array !== '') {
-    for (let key = 0; key < array.length; key += 1) {
+  if (array !== undefined) {
+    for (let key in array) {
       array[key] = {
         tech: array[key],
         name: string,
-      };
+      }
     }
   } else {
     return 'Vazio!';
