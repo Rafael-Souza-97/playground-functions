@@ -121,17 +121,21 @@ function decode(string1) {
 
 // Desafio 10
 function techList(array, string) {
- let objeto = {
-   tech: '',
-   name: '',
- };
-
- if ((array = NaN)) {
-   return 'Vazio!';
+  array = array.sort();
+  if (array !== '') {
+    for (let key = 0; key < array.length; key += 1) {
+      array[key] = {
+        tech: array[key],
+        name: string,
+      };
+    }
+  } else {
+    return 'Vazio!';
   }
+  return array;
+}
 
 // return objeto;
-}
 
 module.exports = {
   calcArea,
