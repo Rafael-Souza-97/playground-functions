@@ -122,7 +122,7 @@ function decode(string1) {
 // Desafio 10
 function techList(array, string) {
   array = array.sort();
-  if (array !== undefined) {
+  if (array !== "") {
     for (let key in array) {
       array[key] = {
         tech: array[key],
