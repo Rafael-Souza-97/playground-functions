@@ -15,6 +15,11 @@ Neste projeto foi implementado algumas funções que resolvem problemas com resp
 ## Tecnologias / Ferramentas utilizadas
 
 - [JavaScript](https://www.javascript.com/)
+- [Zoom](https://zoom.us/)
+- [Slack](https://slack.com/intl/pt-br/)
+- [VsCode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/) & [GitHub](https://github.com/)
+- [Linux - Ubuntu](https://ubuntu.com/)
 
 ## Infos Adicionais
 
