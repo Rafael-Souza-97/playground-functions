@@ -1,4 +1,4 @@
-# Playground Functions
+# Playground-Functions
 
 Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos de [JavaScript](https://www.javascript.com/).
 
