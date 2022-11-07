@@ -4,6 +4,10 @@ Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para r
 
 Neste projeto foi implementado algumas funções que resolvem problemas com respostas pré-determinadas.
 
+Descrição do projeto:
+
+> No seu time de desenvolvimento, você ficou responsável por implementar o código de funções que resolvem problemas com respostas pré-determinadas. Você pode utilizar a lógica de programação para te ajudar na análise de cada problema e resposta esperada, facilitando a implementação do código de cada uma das funções.
+
 ## Autor
 
 - [Rafael Souza](https://github.com/Rafael-Souza-97)
@@ -24,4 +28,3 @@ Neste projeto foi implementado algumas funções que resolvem problemas com resp
 ## Infos Adicionais
 
 - ###### Percentual de cumprimento de requisitos ([Trybe](https://www.betrybe.com/))- 100%
-- ###### Aplicação responsiva - ❌
